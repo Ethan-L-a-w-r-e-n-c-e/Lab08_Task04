@@ -99,8 +99,8 @@ public class InputHelper {
         boolean valid = false;
         System.out.println(prompt);
         do {
-            if(scan.hasNextInt()){
-                input = scan.nextInt();
+            if(scan.hasNextDouble()){
+                input = scan.nextDouble();
                 if(input >= min && input <= max){
                     valid = true;
                 }else {
@@ -120,8 +120,8 @@ public class InputHelper {
         boolean valid = false;
         System.out.println(prompt);
         do {
-            if(scan.hasNextInt()){
-                input = scan.nextInt();
+            if(scan.hasNextDouble()){
+                input = scan.nextDouble();
                 valid = true;
             } else {
                 System.out.println("You have entered the wrong data type. ");
